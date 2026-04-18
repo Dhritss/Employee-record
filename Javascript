@@ -63,7 +63,7 @@ function updateRecord(formData) {
   selectRow.cells[3].innerHTML = formData.salary;
 }
 
-// Dleteing Record--------------------------------------------------------------------------
+// Deleteing Record--------------------------------------------------------------------------
 function onDelete(td) {
   if (confirm("Are you want to delete this record ?")) {
     row = td.parentElement.parentElement;
